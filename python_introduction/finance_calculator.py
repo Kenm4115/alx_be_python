@@ -1,11 +1,13 @@
-monthly_income = int(input ("Enter your monthly income"))
-total_monthly_expenses = int(input ("Enter your total monthly expenses"))
+monthly_income = float(input ("Enter your monthly income"))
+monthly_expenses = float(input ("Enter your total monthly expenses"))
 
-monthly_savings = monthly_income - total_monthly_expenses
+#monthly savings
+monthly_savings = monthly_income - monthly_expenses
 
-#annual_interest_rate = 5%
-
-projected_savings = (monthly_savings * 12 + (monthly_savings * 12 * 0.05))
+#projected annual savings
+interest_rate = 0.05
+annual_savings = monthly_savings * 12
+projected_annual_savings = annual_savings + (annual_savings * interest_rate)
 
 print(monthly_savings)
-print(projected_savings)
+print(projected_annual_savings)
