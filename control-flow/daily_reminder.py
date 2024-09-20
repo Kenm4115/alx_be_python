@@ -22,9 +22,9 @@ match priority:
 # Modify the reminder if the task is time-sensitive
 if time_bound == "yes":
     reminder += " This requires immediate attention today!"
-elif time_bound == "no":
+    print(reminder)
+if time_bound == "no":
     reminder += " This does not require immediate attention."
-else:
     print(reminder)
 
 # Print the customized reminder
