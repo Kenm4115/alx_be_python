@@ -6,6 +6,7 @@ time_bound = input("Is it time-bound? (yes/no): ").lower()
 
 # Initialize the reminder message
 reminder = f"Reminder: You have a task '{task}' with priority '{priority}'."
+print(reminder)
 
 # Process the task based on priority
 match priority:
