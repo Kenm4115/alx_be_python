@@ -22,12 +22,10 @@ match priority:
 # Modify the reminder if the task is time-sensitive
 if time_bound == "yes":
     reminder += " This requires immediate attention today!"
-if time_bound == "no":
+else:
     reminder += " This does not require immediate attention."
-
-    # Print the customized reminder
+# Print the customized reminder
 print(reminder)
-
 
 # Run the main function
 # if __name__ == "__main__":
