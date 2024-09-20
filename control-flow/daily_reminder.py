@@ -1,8 +1,8 @@
 
 # def main():
 # Prompt for a single task
-task = input("Please enter a task description: ")
-time_bound = input("Is the task time-sensitive? (yes or no): ").lower()
+task = input("Enter your task: ")
+time_bound = input("Is it time-bound? (yes or no): ").lower()
 priority = input(
     "What is the priority of the task (high, medium, low)? ").lower()
 
