@@ -24,9 +24,9 @@ if time_bound == "yes":
     reminder += " This requires immediate attention today!"
 else:
     reminder += " This does not require immediate attention."
-# Print the customized reminder
 print(reminder)
 
+# Print the customized reminder
 # Run the main function
 # if __name__ == "__main__":
 #     main()
