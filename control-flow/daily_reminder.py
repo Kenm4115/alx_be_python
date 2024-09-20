@@ -1,5 +1,4 @@
 
-# def main():
 # Prompt for a single task
 task = input("Enter your task: ")
 priority = input("Priority (high/medium/low): ").lower()
@@ -22,13 +21,6 @@ match priority:
 # Modify the reminder if the task is time-sensitive
 if time_bound == "yes":
     reminder += " This requires immediate attention today!"
-    print(reminder)
-if time_bound == "no":
+else:
     reminder += " This does not require immediate attention."
-    print(reminder)
-
-# Print the customized reminder
-
-# Run the main function
-# if __name__ == "__main__":
-#     main()
+print(reminder)
