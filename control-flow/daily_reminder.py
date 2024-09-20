@@ -2,8 +2,8 @@
 # def main():
 # Prompt for a single task
 task = input("Enter your task: ")
+priority = input("Priority (high, medium, low): ").lower()
 time_bound = input("Is it time-bound? (yes or no): ").lower()
-priority = input("priority (high, medium, low)? ").lower()
 
 # Initialize the reminder message
 reminder = f"Reminder: You have a task '{
@@ -19,6 +19,7 @@ match priority:
         reminder += " This is a low-priority task."
     case _:
         reminder += " Priority not recognized."
+
 # Modify the reminder if the task is time-sensitive
 if time_bound == "yes":
     reminder += " This requires immediate attention today!"
