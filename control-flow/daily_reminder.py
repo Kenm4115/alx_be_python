@@ -17,6 +17,7 @@ match priority:
         reminder += " This is a low-priority task."
     case _:
         reminder += " Priority not recognized."
+print(reminder)
 
 # Modify the reminder if the task is time-sensitive
 if time_bound == "yes":
