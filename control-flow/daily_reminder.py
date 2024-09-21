@@ -21,9 +21,10 @@ match priority:
 # Modify the reminder if the task is time-sensitive
 if time_bound == "yes":
     reminder += " that requires immediate attention today!"
+    print(reminder)
 else:
     reminder += " Consider completing it when you have free time. "
-print(reminder)
+    print(reminder)
 
 
 """
