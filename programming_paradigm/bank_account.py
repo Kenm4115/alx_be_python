@@ -8,7 +8,7 @@ class BankAccount:
         # Deposit a specified amount into the account.
         if amount > 0:
             self.account_balance += amount
-            print(f"Deposited: ${amount:.2f}")
+            print(f"Deposited: ${amount:.1f}")
         else:
             print("Deposit amount must be positive.")
 
@@ -17,10 +17,10 @@ class BankAccount:
         if amount > 0:
             if amount <= self.account_balance:
                 self.account_balance -= amount
-                print(f"Withdrew: ${amount:.2f}")
+                print(f"Withdrew: ${amount:.1f}")
                 return True
             else:
-                print("Insufficient funds for this withdrawal.")
+                print("Insufficient funds.")
                 return False
         else:
             print("Withdrawal amount must be positive.")

@@ -8,12 +8,12 @@ def safe_divide(numerator, denominator):
 
         # Perform the division
         result = num / denom
-        return f"The result of {num} divided by {denom} is {result:.2f}"
+        return f"The result of the division is {result:.1f}"
 
     except ZeroDivisionError:
-        return "Error: Division by zero is not allowed."
+        return "Error: Cannot divide by zero."
     except ValueError:
-        return "Error: Non-numeric input provided. Please enter valid numbers."
+        return "Error: Please enter numeric values only."
 
 # Uncomment for testing the function directly
 # if __name__ == "__main__":

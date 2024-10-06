@@ -9,7 +9,7 @@ class TestSimpleCalculator(unittest.TestCase):
         """Create an instance of SimpleCalculator for use in tests."""
         self.calculator = SimpleCalculator()
 
-    def test_add(self):
+    def test_addition(self):
         """Test the add method."""
         self.assertEqual(self.calculator.add(1, 2), 3)
         self.assertEqual(self.calculator.add(-1, 1), 0)
