@@ -32,15 +32,18 @@ class BankAccount:
 
 
 if __name__ == "__main__":
+    BankAccount.main()
+
     # For testing the class directly
-    account = BankAccount(100)  # Starting with a balance of $100
-    account.display_balance()
-    account.deposit(50)
-    account.withdraw(30)
-    account.display_balance()
+    # account = BankAccount(100)  # Starting with a balance of $100
+    # account.display_balance()
+    # account.deposit(50)
+    # account.withdraw(30)
+    # account.display_balance()
 
 
 """
+
 Objective: Understand the fundamentals of OOP in Python by implementing a BankAccount class that encapsulates banking operations. Use command line arguments to interact with instances of this class.
 
 Task Description:
@@ -62,5 +65,6 @@ Implementation Notes for you:
 Ensure your BankAccount class in bank_account.py correctly implements the specified functionalities and adheres to the principles of encapsulation.
 Use main.py to test your BankAccount class by performing various operations. Adjust the initial balance as needed for testing different scenarios.
 This task combines learning OOP concepts with practical command line interaction, enhancing your understanding of Python programming.
+
 
 """
