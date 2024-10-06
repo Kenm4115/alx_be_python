@@ -20,7 +20,7 @@ class BankAccount:
                 # print(f"Withdrew: ${amount:.1f}")
                 return True
             else:
-                print("Insufficient funds.")
+                # print("Insufficient funds.")
                 return False
         else:
             print("Withdrawal amount must be positive.")
