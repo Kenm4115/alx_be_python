@@ -32,14 +32,12 @@ class BankAccount:
 
 
 if __name__ == "__main__":
-    BankAccount.main()
-
     # For testing the class directly
-    # account = BankAccount(100)  # Starting with a balance of $100
-    # account.display_balance()
-    # account.deposit(50)
-    # account.withdraw(30)
-    # account.display_balance()
+    account = BankAccount(100)  # Starting with a balance of $100
+    account.display_balance()
+    account.deposit(50)
+    account.withdraw(30)
+    account.display_balance()
 
 
 """
