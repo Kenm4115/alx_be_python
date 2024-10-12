@@ -2,19 +2,19 @@
 import math
 
 
-class shape:
+class Shape:
     def area(self):
         return "NotImplementedError"
 
 
-class Rectangle(shape):
+class Rectangle(Shape):
     def __init__(self, length, width):
         self.length = length
         self.width = width
         area = length * width
 
 
-class Circle(shape):
+class Circle(Shape):
     def __init__(self, radius):
         self.radius = radius
         # area = π * radius²
