@@ -11,7 +11,7 @@ class Rectangle(Shape):
     def __init__(self, length, width):
         self.length = length
         self.width = width
-        area = length * width
+        area = self.length * self.width
 
 
 class Circle(Shape):
