@@ -4,6 +4,9 @@ class Book:
         self.title = title
         self.author = author
 
+    def __str__(self) -> str:
+        pass
+
 
 class EBook(Book):
     def __init__(self, file_size):

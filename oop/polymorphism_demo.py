@@ -1,4 +1,5 @@
 
+import math
 class shape:
     def area(self):
         return "NotImplementedError"
