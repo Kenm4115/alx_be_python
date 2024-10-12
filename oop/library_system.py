@@ -32,7 +32,7 @@ class Library:
             print(book)
 
 
-books = (Book, EBook, PrintBook)
+# books = (Book, EBook, PrintBook)
 
 
 """
