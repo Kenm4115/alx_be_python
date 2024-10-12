@@ -23,4 +23,5 @@ class PrintBook(Book):
 #         self.page_count = page_count
 
 books = (Book, EBook, PrintBook)
+["self.books = []", "append", "list_books"]
 print(books)

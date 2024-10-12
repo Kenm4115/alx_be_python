@@ -1,6 +1,7 @@
 
 class Calculator:
     calculation_type = "Arithmetic Operations"
+    Calculator = "add"
 
 
 @staticmethod
