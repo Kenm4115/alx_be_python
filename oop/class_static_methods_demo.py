@@ -1,7 +1,9 @@
 
 class Calculator:
-    def __init__(self):
-        pass
+    calculation_type = "Arithmetic Operations"
+
+    # def __init__(self):
+    #     pass
 
 
 @staticmethod

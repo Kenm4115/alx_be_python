@@ -4,8 +4,8 @@ class Book:
         self.title = title
         self.author = author
 
-    def __str__(self) -> str:
-        pass
+    def __str__(self):
+        return f"title: {self.title}, Author:{self.author}"
 
 
 class EBook(Book):
