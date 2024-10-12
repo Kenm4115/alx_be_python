@@ -4,7 +4,7 @@ import math
 
 class Shape:
     def area(self):
-        return "NotImplementedError"
+        return
 
 
 class Rectangle(Shape):
