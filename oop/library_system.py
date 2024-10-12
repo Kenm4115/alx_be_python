@@ -33,8 +33,6 @@ class Library:
 
 
 books = (Book, EBook, PrintBook)
-# ["self.books = []", "append", "list_books"]
-print(books)
 
 
 """
