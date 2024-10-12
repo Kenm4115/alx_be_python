@@ -9,19 +9,16 @@ class Book:
 
 
 class EBook(Book):
-    super().__init__
-
-    # def __init__(self, file_size):
-    #     self.file_size = file_size
+    def __init__(self, file_size):
+        super().__init__(file_size)
+        self.file_size = file_size
 
 
 class PrintBook(Book):
-    super().__init__
+    def __init__(self, page_count):
+        super().__init__(page_count)
+        self.page_count = page_count
 
-
-# class PrintBook(Book):
-#     super().__init__(self, page_count):
-#         self.page_count = page_count
 
 books = (Book, EBook, PrintBook)
 ["self.books = []", "append", "list_books"]

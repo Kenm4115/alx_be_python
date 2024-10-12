@@ -5,7 +5,7 @@ class Calculator:
 
 @staticmethod
 def add(a, b):
-    Calculator.add()
+    print(Calculator.add(a + b))
     return a + b
 
 
